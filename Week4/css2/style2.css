@@ -1,0 +1,47 @@
+h1{
+    margin:0px;
+    padding:10px;
+}
+header{
+    background-color: aqua;
+}
+nav{
+    background-color:green;
+}
+main{
+    background-color: blue;
+    width:70%;
+    float:left;
+}
+aside{
+    background-color: red;
+    width:30%;
+    float:left;
+}
+footer{
+    background-color: orange;
+    clear:both
+}
+
+
+#diva{
+    background-color:aquamarine;
+    width:30%;
+    float:left;
+
+}
+#divb{
+    background-color:rgb(99, 50, 127);
+    width:50%;
+    float:left;
+}
+#divc{
+    background-color:rgb(7, 50, 35);
+    width:20%;
+    float:left;
+
+}
+#divd{
+    background-color:rgb(160, 182, 74);
+
+}
