@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        table,th,td{
+            border: 1px solid blue;
+            border-collapse:collapse ;
+        }
+        tbody :nth-child(odd){
+            background-color: blueviolet;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>111</td>
+                <td>Tom hanks</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <td>112</td>
+                <td>Jeson sos</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2"></td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>111</td>
+                <td>Tom hanks</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <td>111</td>
+                <td>Tom hanks</td>
+                <td>56</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>
